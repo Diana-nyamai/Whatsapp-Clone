@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+# Whatsapp Clone
+This repository contains a simple clone of the popular messaging application, WhatsApp, implemented using React and tailwind css
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,7 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Whatsapp-Clone
-This repository contains a simple clone of the popular messaging application, WhatsApp, implemented using React and tailwind css
->>>>>>> 0e47af0af47f6aa27fc34cc5948a3c0e3f234008
