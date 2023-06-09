@@ -26,9 +26,7 @@
     left: 20px;
     top: 50%;
     z-index: 2;
-    transform: translateY(-50%);
-}
-
-.search-icon {
+    transform: translateY(-50%);   
     color: #6e7e87;
+    cursor: pointer;
 }
