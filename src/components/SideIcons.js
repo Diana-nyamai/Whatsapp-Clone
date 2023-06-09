@@ -7,9 +7,9 @@ import { AiOutlineMore } from "react-icons/ai";
 function SideIcons() {
   return (
     <div className="sideicons">
-      <AiOutlineUsergroupAdd value={{ className: "icon" }} />
-      <AiFillMessage value={{ className: "icon" }} />
-      <AiOutlineMore value={{ className: "icon" }} />
+      <AiOutlineUsergroupAdd />
+      <AiFillMessage />
+      <AiOutlineMore />
     </div>
   );
 }
