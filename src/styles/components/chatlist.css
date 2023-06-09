@@ -1,0 +1,37 @@
+.chatlist-container{
+    border: 1pxx solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+
+}
+.chat-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+}
+.chatlist-avatar{
+    margin-left: 10px;
+}
+/* .underline{
+    border-bottom: 1px solid #e9edef;
+} */
+.c-text{
+    margin-left: 15px;
+}
+.name
+{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 17px;
+    color: #111b21;
+}
+.message{
+    font-size: 12px;
+    color: #667781;
+}
+.c-time{
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
