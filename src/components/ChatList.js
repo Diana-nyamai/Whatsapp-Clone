@@ -11,58 +11,90 @@ import profile from "../assets/profile.jpg";
 function ChatList() {
   const chatLists = [
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "john doe",
       message: "Hello there, how are you?",
       time: "7:30 PM",
     },
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "John Duncan",
-      message: "Hello there, how are you?",
-      time: "7:30 PM",
+      message: "hey?",
+      time: "6:30 PM",
     },
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "Chloe Thompson",
       message: "Bye.",
-      time: "7:30 PM",
+      time: "Yesterday",
     },
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "Joey Jones",
-      message: "Hello there, how are you?",
-      time: "7:30 PM",
+      message: "can i?",
+      time: "Yesterday",
     },
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "Abraham Stewart",
       message: "Hello there, how are you?",
-      time: "7:30 PM",
+      time: "Tuesday",
     },
     {
-      avatar: <Avatars image={profile} awidth={55} aheight={55} />,
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
       userName: "Jill Pope",
       message: "Hello there, how are you?",
-      time: "7:30 PM",
+      time: "Tuesday",
+    },
+    {
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
+      userName: "Jill Pope",
+      message: "Hello there, how are you?",
+      time: "Tuesday",
+    },
+    {
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
+      userName: "Jill Pope",
+      message: "Hello there, how are you?",
+      time: "Wednesday",
+    },
+    {
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
+      userName: "Jill Pope",
+      message: "Hello there, how are you?",
+      time: "Wednesday",
+    },
+    {
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
+      userName: "Jill Pope",
+      message: "Hello there, how are you?",
+      time: "6/2/2023",
+    },
+    {
+      avatar: <Avatars image={profile} awidth={50} aheight={50} />,
+      userName: "Jill Pope",
+      message: "Hello there, how are you?",
+      time: "6/2/2023",
     },
   ];
   return (
-    <div>
+    <div className="chatlist-main">
+      <div className="chatlist-main">
       {chatLists.map((chatlist) => (
         <div className="chatlist-container">
           <div className="chat-list">
             <div className="chatlist-avatar">{chatlist.avatar}</div>
-            {/* <div className="underline"> */}
+            <div className="c-underline">
               <div className="c-text">
                 <p className="name">{chatlist.userName}</p>
                 <p className="message">{chatlist.message}</p>
               </div>
               <div className="c-time">{chatlist.time}</div>
-            {/* </div> */}
+            </div>
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 }
