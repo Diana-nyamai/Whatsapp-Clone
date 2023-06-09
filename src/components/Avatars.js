@@ -1,15 +1,17 @@
-import React from 'react'
-import '../styles/components/avatars.css'
-import profile from '../assets/profile.jpg'
+import React from "react";
+import "../styles/components/avatars.css";
 
-function Avatars() {
+function Avatars({ image, awidth, aheight }) {
   return (
     <>
-      <div className='avatar'>
-        <img src={profile} alt="profile" />
+      <div
+        style={{ width: `${awidth}px`, height: `${aheight}` }}
+        className="avatar"
+      >
+        <img style={{ width: `${awidth}px` }} src={image} alt="profile" />
       </div>
     </>
-  )
+  );
 }
 
-export default Avatars
+export default Avatars;
