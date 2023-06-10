@@ -6,13 +6,13 @@ import ChatList from "./ChatList";
 
 function SideNav() {
   return (
-    <>
+    <d>
       <div className="sidepane">
         <TopNav />
         <SearchBar />
         <ChatList/>
       </div>
-    </>
+    </d>
   );
 }
 
