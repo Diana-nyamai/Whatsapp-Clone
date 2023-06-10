@@ -13,14 +13,17 @@
 
 .chatlist-container {
     width: 100%;
-    margin-bottom: 20px;
     justify-content: center;
-
 }
 
 .chat-list {
     display: flex;
-    padding-bottom: 5px;
+    padding: 5px;
+}
+
+.chat-list:hover {
+    background-color: #f0f2f5;
+    cursor: pointer;
 }
 
 .chatlist-avatar {
@@ -54,4 +57,22 @@
     margin-left: 60px;
     margin-right: 10px;
     color: #667781;
+}
+.black{
+    font-weight: bold;
+}
+.green{
+    color: #25d366;
+}
+.notify{
+    margin-top: 10px;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    background: #25d366;
 }
