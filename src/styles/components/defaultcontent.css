@@ -1,0 +1,19 @@
+.main-content{
+    display: flex;
+    margin-left: 350px;
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.title{
+    font-size: 30px;
+    font-weight: 100;
+    color: #68527f;
+}
+.para{
+    font-size: 13px;
+    color: #667790;
+}
