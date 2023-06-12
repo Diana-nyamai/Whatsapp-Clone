@@ -1,11 +1,14 @@
 .menu{
+    width: 170px;
     position: absolute;
-    padding: 15px 10px;
     background-color: #fff;
     z-index: 100;
     top: 30px;
 }
 .menu p{
+    padding: 5px 10px;
     font-size: 16px;
-    padding: 5px 0;
+}
+.menu p:hover{
+    background-color: #f0f2f5;
 }
