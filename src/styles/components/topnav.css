@@ -1,4 +1,5 @@
-.topnav{
+.topnav {
+    position: relative;
     width: 350px;
     height: 60px;
     background-color: #f0f2f5;
