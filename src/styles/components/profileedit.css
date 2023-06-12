@@ -1,0 +1,36 @@
+.profileEdit{
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1001;
+    color: #fff;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.profileEdit.hidden{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.topTitle{
+    height: 108px;
+    background-color:#008069 ;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    padding: 15px;
+}
+.closeButton {
+    top: 10px;
+    left: 0;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .topTitle p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+  }
