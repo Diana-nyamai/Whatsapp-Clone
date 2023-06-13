@@ -1,0 +1,35 @@
+.chatContainer{
+    margin: 10px;
+    width: auto;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+.chatContainer2{
+    width: 100%;
+    padding: 8px;
+}
+.left, .right{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 5px; */
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.right{
+    float: right;
+    justify-content: flex-end;
+}
+.left2{
+    float: left;
+    background-color: #fff;
+}
+.right2{
+    float: right;
+    background-color: #d9fdd3;
+}
+
+.chatTime{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 12px;
+}

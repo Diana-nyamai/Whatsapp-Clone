@@ -1,0 +1,29 @@
+.chatHeader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+    padding: 10px 20px;
+    height: 60px;
+    position: relative;
+    width: 100%;
+}
+.chatProfile{
+    display: flex;
+    justify-content: space-between;
+}
+.chatInfo{
+    margin-left: 20px;
+}
+.chatStatus{
+    font-size: 12px;
+}
+.chatIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.chatSearch{
+    margin-right: 20px;
+}
