@@ -1,26 +1,37 @@
-.profileEdit{
+.profileEdit {
     width: 350px;
     height: 100vh;
+    padding-bottom: 20px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: #f0f2f5;
     z-index: 1001;
     color: #fff;
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    overflow-y: auto;
 }
-.profileEdit.hidden{
+.profileEdit::-webkit-scrollbar{
+    width: 5px;
+}
+.profileEdit::-webkit-scrollbar-thumb{
+    background-color: #ced0d1;
+}
+
+.profileEdit.hidden {
     opacity: 0;
     transform: translateX(-100%);
 }
-.topTitle{
+
+.topTitle {
     height: 108px;
-    background-color:#008069 ;
+    background-color: #008069;
     display: flex;
     align-items: flex-end;
     flex-direction: row;
     padding: 15px;
 }
+
 .closeButton {
     top: 10px;
     left: 0;
@@ -28,9 +39,51 @@
     font-size: 30px;
     font-weight: 500;
     cursor: pointer;
-  }
-  .topTitle p{
+}
+
+.topTitle p {
     margin-left: 20px;
     font-size: 20px;
     font-weight: 500;
-  }
+}
+
+.profileDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nameEdit {
+    color: #000;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.nameEdit p {
+    color: #848099;
+    font-size: 13px;
+}
+
+.editName {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.editName p {
+    font-size: 15px;
+    color: #000;
+}
+
+.iconEdit {
+    font-size: 20px;
+    color: #99a7af;
+    cursor: pointer;
+}
+
+.instructions {
+    color: #7c8a9f;
+    padding: 20px;
+    font-size: 14px;
+}
