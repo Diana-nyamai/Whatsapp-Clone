@@ -6,7 +6,7 @@ The WhatsApp Clone is a web-based application that emulates the core features an
 
 - Frontend: `HTML, CSS, Javascript`
 
-## Instalation
+## Installation
 
 To use WhatsApp clone on your local machine, follow these steps:
 
