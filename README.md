@@ -11,7 +11,7 @@ The WhatsApp Clone is a web-based application that emulates the core features an
 To use WhatsApp clone on your local machine, follow these steps:
 
 1. clone the repository
-  - git `clone` <repository-url>
+  - git `clone <repository-url>`
 2. install the dependencies
   - `cd` Whatsapp-Clone
   - `npm` install
