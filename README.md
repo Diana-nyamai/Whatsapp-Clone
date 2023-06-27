@@ -1,4 +1,4 @@
-# Project Name: WhatsAPP Clone
+# WhatsAPP Clone
 
 ## Description
 The WhatsApp Clone is a web-based application that emulates the core features and functionality of the popular messaging app, WhatsApp. This README file provides an overview of the project, installation instructions, and other relevant information.
